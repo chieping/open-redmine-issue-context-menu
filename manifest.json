@@ -1,0 +1,14 @@
+{
+  "name": "open-redmine-issue-context-menu",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "open-redmine-issue-by-context-menu",
+  "permissions": ["<all_urls>", "contextMenus", "tabs"],
+  "background": {
+    "persistant": false,
+    "scripts": ["main.js"]
+  },
+  "icons": {
+    "16": "redmine_16.png"
+  }
+}
